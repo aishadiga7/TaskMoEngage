@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+
+    </data>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_15"
+        android:layout_marginStart="@dimen/dimen_10"
+        android:layout_marginEnd="@dimen/dimen_10"
+        app:cardUseCompatPadding="true"
+        android:elevation="@dimen/dimen_3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dimen_15"
+            android:paddingStart="@dimen/dimen_15"
+            android:paddingEnd="@dimen/dimen_15"
+            android:paddingBottom="@dimen/dimen_15"
+            android:paddingRight="@dimen/dimen_15">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_thumb_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dimen_15"
+                android:textStyle="bold"
+                android:textSize="@dimen/dimen_20sp"
+                android:paddingEnd="@dimen/dimen_15"
+                android:layout_toRightOf="@id/iv_thumb_image"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dimen_15"
+                android:paddingEnd="@dimen/dimen_15"
+                android:layout_toRightOf="@id/iv_thumb_image"
+                android:textSize="@dimen/dimen_20sp"
+                android:layout_below="@id/tv_author"/>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
+</layout>

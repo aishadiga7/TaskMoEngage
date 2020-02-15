@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dimen_25">25dp</dimen>
+    <dimen name="dimen_25sp">25sp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_12sp">12sp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_3">3dp</dimen>
+    <dimen name="dimen_30">30dp</dimen>
+    <dimen name="dimen_15sp">15sp</dimen>
+    <dimen name="dimen_20sp">15sp</dimen>
+
+</resources>

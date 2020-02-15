@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="today_tab_title">TODAY</string>
+    <string name="later_tab_title">LATER</string>
+    <string name="txt_rise_shine">Rise and Shine!</string>
+    <string name="txt_lots_going_on">There is a lot going on today. There are 6 todos\n scheduled. and the first one starts at 10.AM</string>
+    <string name="pending_items">PENDING ITEMS</string>
+    <string name="completed_items">COMPLETED ITEMS</string>
+    <string name="serach">Search</string>
+    <string name="no_images_found">No Images found</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_roll_no">Enter roll no</string>
+    <string name="enter_class_grade">Enter Standard</string>
+    <string name="add">Add</string>
+    <string name="from">From</string>
+    <string name="no_data_found">No Data found</string>
+</resources>
